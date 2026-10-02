@@ -3,7 +3,7 @@ import { AuthService } from './auth.service';
 import { RegisterAuthDto } from './dto/register-customer.auth';
 import { VerifyAccountDto } from './dto/verify-account.dto';
 import { LoginAuthDto } from './dto/login.auth.dto';
-import { IsPublic } from 'src/common/decorators/public/public.decorators';
+import { IsPublic } from '../../common/decorators/public/public.decorators';
 import { forgetPasswordDto } from './dto/forgetPassword.auth';
 import { resetPasswordDto } from './dto/resetPassword.auth';
 import type { Request, Response } from 'express';

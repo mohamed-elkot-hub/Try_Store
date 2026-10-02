@@ -1,5 +1,5 @@
 import mongoose, { Types } from 'mongoose';
-import { Role } from "../../common/Enum/role.enum";
+import { Role } from '../../common/Enum/role.enum';
 export declare class User {
     firstName: string;
     lastName: string;

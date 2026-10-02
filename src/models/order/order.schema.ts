@@ -3,8 +3,8 @@ import { Document, Types } from 'mongoose';
 import {
   PaymentMethodEnum,
   paymentStatusEnum,
-} from 'src/common/Enum/payment.enum';
-import { OrderStatus } from 'src/common/Enum/status';
+} from '../../common/Enum/payment.enum';
+import { OrderStatus } from '../../common/Enum/status';
 
 export type TOrder = Document & Order;
 

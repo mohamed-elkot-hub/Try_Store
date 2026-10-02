@@ -8,7 +8,7 @@ import {
   Put,
 } from '@nestjs/common';
 import { AddressService } from './address.service';
-import { CurrentUser } from 'src/common/decorators/User/user.decorators';
+import { CurrentUser } from '../../common/decorators/User/user.decorators';
 import { AddressDto } from './dto/address.dto';
 import { UpdateAddressDto } from './dto/update-address.dto';
 

@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import mongoose, { Types } from 'mongoose';
-import { DiscountEnum } from 'src/common/Enum/discount.enum';
+import { DiscountEnum } from '../../common/Enum/discount.enum';
 
 export type Tproduct = Document & Product;
 

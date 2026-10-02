@@ -1,7 +1,7 @@
-import { AddressRepository } from "../../models/address/address.repository";
+import { AddressRepository } from '../../models/address/address.repository';
 import { AddressDto } from './dto/address.dto';
 import { UpdateAddressDto } from './dto/update-address.dto';
-import { CustomerRepository } from "../../models/customer/customer.repository";
+import { CustomerRepository } from '../../models/customer/customer.repository';
 import { Types } from 'mongoose';
 export declare class AddressService {
     private readonly addressRepository;

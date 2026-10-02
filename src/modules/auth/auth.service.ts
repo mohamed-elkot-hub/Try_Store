@@ -5,10 +5,10 @@ import {
   NotFoundException,
   UnauthorizedException,
 } from '@nestjs/common';
-import { CustomerRepository } from 'src/models/customer/customer.repository';
+import { CustomerRepository } from '../../models/customer/customer.repository';
 import { RegisterAuthDto } from './dto/register-customer.auth';
 import { UserFactoryService } from './factory/user.factory';
-import { MailService } from 'src/common/mail/mail.service';
+import { MailService } from '../../common/mail/mail.service';
 import { CACHE_MANAGER, Cache } from '@nestjs/cache-manager';
 import { VerifyAccountDto } from './dto/verify-account.dto';
 import { LoginAuthDto } from './dto/login.auth.dto';
@@ -17,7 +17,7 @@ import { JwtService } from '@nestjs/jwt';
 import { forgetPasswordDto } from './dto/forgetPassword.auth';
 import { resetPasswordDto } from './dto/resetPassword.auth';
 import { ConfigService } from '@nestjs/config';
-import { userRepository } from 'src/models/users/user.repository';
+import { userRepository } from '../../models/users/user.repository';
 import { Types } from 'mongoose';
 
 @Injectable()

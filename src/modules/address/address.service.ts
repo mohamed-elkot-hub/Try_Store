@@ -3,10 +3,10 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { AddressRepository } from 'src/models/address/address.repository';
+import { AddressRepository } from '../../models/address/address.repository';
 import { AddressDto } from './dto/address.dto';
 import { UpdateAddressDto } from './dto/update-address.dto';
-import { CustomerRepository } from 'src/models/customer/customer.repository';
+import { CustomerRepository } from '../../models/customer/customer.repository';
 import { Types } from 'mongoose';
 
 @Injectable()

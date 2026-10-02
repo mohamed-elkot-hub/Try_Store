@@ -1,6 +1,6 @@
 import { Document, Types } from 'mongoose';
-import { PaymentMethodEnum, paymentStatusEnum } from "../../common/Enum/payment.enum";
-import { OrderStatus } from "../../common/Enum/status";
+import { PaymentMethodEnum, paymentStatusEnum } from '../../common/Enum/payment.enum';
+import { OrderStatus } from '../../common/Enum/status';
 export type TOrder = Document & Order;
 export declare class OrderItem {
     productId: Types.ObjectId;

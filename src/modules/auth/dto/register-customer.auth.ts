@@ -7,7 +7,6 @@ import {
   Max,
   Min,
 } from 'class-validator';
-import { Types } from 'mongoose';
 import { Match } from 'src/common/decorators/validators/match.decorators';
 import { Role } from 'src/common/Enum/role.enum';
 

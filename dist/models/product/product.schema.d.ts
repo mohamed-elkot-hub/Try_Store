@@ -1,5 +1,5 @@
 import mongoose, { Types } from 'mongoose';
-import { DiscountEnum } from "../../common/Enum/discount.enum";
+import { DiscountEnum } from '../../common/Enum/discount.enum';
 export type Tproduct = Document & Product;
 export declare class ProductImage {
     url: string;
