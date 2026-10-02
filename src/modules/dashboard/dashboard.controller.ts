@@ -1,0 +1,16 @@
+import { Controller, Get, UseGuards } from '@nestjs/common';
+import { DashboardService } from './dashboard.service';
+import { RoleGuard } from 'src/common/guard/role.guard';
+import { Role } from 'src/common/Enum/role.enum';
+import { ROLE } from 'src/common/decorators/role/role.decorators';
+
+@Controller('dashboard')
+export class DashboardController {
+  constructor(private readonly dashboardService: DashboardService) {}
+  @UseGuards(RoleGuard)
+  @ROLE(Role.admin)
+  @Get('stats')
+  getStats() {
+    return this.dashboardService.getStats();
+  }
+}

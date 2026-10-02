@@ -1,0 +1,17 @@
+import { Types } from 'mongoose';
+import { CloudinaryResponseDto } from 'src/common/cloud/dto/cloudinary.dto';
+import { DiscountEnum } from 'src/common/Enum/discount.enum';
+
+export class ProductEntity {
+  name!: string;
+    slug!: string;
+  description!: string;
+  price!: number;
+  categoryId!: Types.ObjectId;
+  stock!: number;
+  discountType!: DiscountEnum;
+  discount!: number;
+  finalPrice!: number;
+  mainImage!: CloudinaryResponseDto;
+  subImages!: CloudinaryResponseDto[];
+}
