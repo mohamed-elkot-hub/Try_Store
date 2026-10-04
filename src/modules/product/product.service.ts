@@ -81,7 +81,6 @@ export class ProductService {
         };
       },
     );
-  
 
     // Create entity using factory
     const product = await this.productFactory.createProductEntity(
