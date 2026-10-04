@@ -1,4 +1,4 @@
-import { PassowrdHashedService } from "../../../common/security/password-hashed.service";
+import { PassowrdHashedService } from '../../../common/security/password-hashed.service';
 import { RegisterAuthDto } from '../dto/register-customer.auth';
 import { RegisterEntity } from '../entities/auth.entity';
 export declare class UserFactoryService {

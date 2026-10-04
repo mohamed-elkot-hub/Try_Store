@@ -1,4 +1,4 @@
-import { Role } from "../../../common/Enum/role.enum";
+import { Role } from '../../../common/Enum/role.enum';
 export declare class RegisterAuthDto {
     firstName: string;
     lastName: string;

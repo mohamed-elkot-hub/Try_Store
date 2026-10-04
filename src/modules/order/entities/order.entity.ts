@@ -1,8 +1,8 @@
 import {
   PaymentMethodEnum,
   paymentStatusEnum,
-} from 'src/common/Enum/payment.enum';
-import { OrderStatus } from 'src/common/Enum/status';
+} from '../../../common/Enum/payment.enum';
+import { OrderStatus } from '../../../common/Enum/status';
 
 import { Types } from 'mongoose';
 

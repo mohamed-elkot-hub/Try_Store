@@ -3,12 +3,12 @@ import { Module } from '@nestjs/common';
 import { ProductController } from './product.controller';
 import { ProductService } from './product.service';
 import { ProductFactoryService } from './factory/product.factory';
-import { ProductRepository } from 'src/models/product/product.repository';
-import { CategoryRepository } from 'src/models/category/category.repository';
+import { ProductRepository } from '../../models/product/product.repository';
+import { CategoryRepository } from '../../models/category/category.repository';
 import { MongooseModule } from '@nestjs/mongoose';
-import { Product, productSchema } from 'src/models/product/product.schema';
+import { Product, productSchema } from '../../models/product/product.schema';
 import { CategoryModule } from '../category/category.module';
-import { CloudModule } from 'src/common/cloud/cloud.module';
+import { CloudModule } from '../../common/cloud/cloud.module';
 
 @Module({
   imports: [

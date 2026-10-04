@@ -1,4 +1,4 @@
-import { Role } from "src/common/Enum/role.enum";
+import { Role } from "../../../common/Enum/role.enum";
 
 export class RegisterEntity {
   firstName!: string;

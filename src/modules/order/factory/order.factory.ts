@@ -1,8 +1,8 @@
-import { TCart } from "src/models/cart/cart.schema";
+import { TCart } from "../../../models/cart/cart.schema";
 import { CreateOrderDto } from "../dto/order.dto";
 import { OrderEntity } from "../entities/order.entity";
 import { Types } from "mongoose";
-import { paymentStatusEnum } from "src/common/Enum/payment.enum";
+import { paymentStatusEnum } from "../../../common/Enum/payment.enum";
 
 
 export class OrderFactory {

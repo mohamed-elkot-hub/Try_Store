@@ -1,6 +1,6 @@
 import { IsEnum, IsMongoId, IsNotEmpty } from 'class-validator';
-import { PaymentMethodEnum } from 'src/common/Enum/payment.enum';
-import { paymentStatusEnum } from 'src/common/Enum/payment.enum';
+import { PaymentMethodEnum } from '../../../common/Enum/payment.enum';
+import { paymentStatusEnum } from '../../../common/Enum/payment.enum';
 
 export class CreateOrderDto {
   @IsMongoId()

@@ -1,5 +1,5 @@
-import { PaymentMethodEnum, paymentStatusEnum } from "../../../common/Enum/payment.enum";
-import { OrderStatus } from "../../../common/Enum/status";
+import { PaymentMethodEnum, paymentStatusEnum } from '../../../common/Enum/payment.enum';
+import { OrderStatus } from '../../../common/Enum/status';
 import { Types } from 'mongoose';
 export declare class OrderItemEntity {
     productId: Types.ObjectId;

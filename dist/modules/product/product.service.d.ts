@@ -1,8 +1,8 @@
 import { ProductDto } from './dto/product.dto';
-import { ProductRepository } from "../../models/product/product.repository";
+import { ProductRepository } from '../../models/product/product.repository';
 import { ProductFactoryService } from './factory/product.factory';
-import { CategoryRepository } from "../../models/category/category.repository";
-import { StorageService } from "../../common/cloud/abstract/storage.service";
+import { CategoryRepository } from '../../models/category/category.repository';
+import { StorageService } from '../../common/cloud/abstract/storage.service';
 export declare class ProductService {
     private readonly productFactory;
     private readonly productRepository;

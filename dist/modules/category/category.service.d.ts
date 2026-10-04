@@ -1,4 +1,4 @@
-import { CategoryRepository } from "../../models/category/category.repository";
+import { CategoryRepository } from '../../models/category/category.repository';
 import { CategoryDto } from './dto/category.dto';
 import { CategoryFactoryService } from './factory/category.factory';
 export declare class CategoryService {

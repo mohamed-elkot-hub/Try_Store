@@ -12,12 +12,12 @@ import {
 import { OrderService } from './order.service';
 import { CreateOrderDto, UpdatePaymentStatusDto } from './dto/order.dto';
 
-import { CurrentUser } from 'src/common/decorators/User/user.decorators';
-import { ROLE } from 'src/common/decorators/role/role.decorators';
-import { RoleGuard } from 'src/common/guard/role.guard';
-import { Role } from 'src/common/Enum/role.enum';
+import { CurrentUser } from '../../common/decorators/User/user.decorators';
+import { ROLE } from '../../common/decorators/role/role.decorators';
+import { RoleGuard } from '../../common/guard/role.guard';
+import { Role } from '../../common/Enum/role.enum';
 import { UpdateOrderStatusDto } from './dto/update-order.dto';
-import { IsPublic } from 'src/common/decorators/public/public.decorators';
+import { IsPublic } from '../../common/decorators/public/public.decorators';
 
 @Controller('orders')
 export class OrderController {

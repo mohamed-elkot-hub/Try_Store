@@ -1,4 +1,4 @@
-import { DiscountEnum } from "../../../common/Enum/discount.enum";
+import { DiscountEnum } from '../../../common/Enum/discount.enum';
 export declare class ProductDto {
     name: string;
     description: string;

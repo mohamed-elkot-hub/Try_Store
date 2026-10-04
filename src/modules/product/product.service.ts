@@ -6,11 +6,11 @@ import {
 } from '@nestjs/common';
 import { ProductDto } from './dto/product.dto';
 
-import { ProductRepository } from 'src/models/product/product.repository';
+import { ProductRepository } from '../../models/product/product.repository';
 import { ProductFactoryService } from './factory/product.factory';
-import { CategoryRepository } from 'src/models/category/category.repository';
-import { StorageService } from 'src/common/cloud/abstract/storage.service';
-import { CloudinaryResponseDto } from 'src/common/cloud/dto/cloudinary.dto';
+import { CategoryRepository } from '../../models/category/category.repository';
+import { StorageService } from '../../common/cloud/abstract/storage.service';
+import { CloudinaryResponseDto } from '../../common/cloud/dto/cloudinary.dto';
 
 @Injectable()
 export class ProductService {

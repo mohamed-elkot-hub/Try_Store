@@ -10,7 +10,7 @@ import {
   Min,
 } from 'class-validator';
 
-import { DiscountEnum } from 'src/common/Enum/discount.enum';
+import { DiscountEnum } from '../../../common/Enum/discount.enum';
 
 export class ProductDto {
   @IsNotEmpty()

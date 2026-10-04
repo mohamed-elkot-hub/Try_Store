@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { PassowrdHashedService } from 'src/common/security/password-hashed.service';
+import { PassowrdHashedService } from '../../../common/security/password-hashed.service';
 import { RegisterAuthDto } from '../dto/register-customer.auth';
 import { RegisterEntity } from '../entities/auth.entity';
 

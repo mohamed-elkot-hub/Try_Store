@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import { Role } from 'src/common/Enum/role.enum';
-import { OrderStatus } from 'src/common/Enum/status';
-import { OrderRepository } from 'src/models/order/order.repository';
-import { ProductRepository } from 'src/models/product/product.repository';
-import { userRepository } from 'src/models/users/user.repository';
+import { Role } from '../../common/Enum/role.enum';
+import { OrderStatus } from '../../common/Enum/status';
+import { OrderRepository } from '../../models/order/order.repository';
+import { ProductRepository } from '../../models/product/product.repository';
+import { userRepository } from '../../models/users/user.repository';
 
 @Injectable()
 export class DashboardService {

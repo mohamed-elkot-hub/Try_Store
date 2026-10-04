@@ -3,7 +3,7 @@ import { Body, Controller, Get, Patch, Post, UseGuards } from '@nestjs/common';
 import { CartService } from './cart.service';
 import { CartDto } from './dto/cart.dto';
 import { UpdateCartDto } from './dto/update-cart.dto';
-import { CurrentUser } from 'src/common/decorators/User/user.decorators';
+import { CurrentUser } from '../../common/decorators/User/user.decorators';
 
 @Controller('cart')
 export class CartController {

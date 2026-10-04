@@ -1,8 +1,8 @@
 import { Types } from 'mongoose';
 import { CartDto } from './dto/cart.dto';
 import { UpdateCartDto } from './dto/update-cart.dto';
-import { CartRepository } from "../../models/cart/cart.repository";
-import { ProductRepository } from "../../models/product/product.repository";
+import { CartRepository } from '../../models/cart/cart.repository';
+import { ProductRepository } from '../../models/product/product.repository';
 export declare class CartService {
     private readonly cartRepository;
     private readonly productRepository;

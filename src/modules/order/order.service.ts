@@ -3,18 +3,18 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { OrderRepository } from 'src/models/order/order.repository';
+import { OrderRepository } from '../../models/order/order.repository';
 import { CreateOrderDto } from './dto/order.dto';
-import { CartRepository } from 'src/models/cart/cart.repository';
-import { AddressRepository } from 'src/models/address/address.repository';
-import { ProductRepository } from 'src/models/product/product.repository';
+import { CartRepository } from '../../models/cart/cart.repository';
+import { AddressRepository } from '../../models/address/address.repository';
+import { ProductRepository } from '../../models/product/product.repository';
 import { Types } from 'mongoose';
 import { OrderFactory } from './factory/order.factory';
 import {
   PaymentMethodEnum,
   paymentStatusEnum,
-} from 'src/common/Enum/payment.enum';
-import { OrderStatus } from 'src/common/Enum/status';
+} from '../../common/Enum/payment.enum';
+import { OrderStatus } from '../../common/Enum/status';
 import { KashierService } from '../payment/payment.service';
 
 @Injectable()

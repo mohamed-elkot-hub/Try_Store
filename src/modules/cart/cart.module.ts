@@ -4,8 +4,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { CartController } from './cart.controller';
 import { CartService } from './cart.service';
 
-import { Cart, CartSchema } from 'src/models/cart/cart.schema';
-import { CartRepository } from 'src/models/cart/cart.repository';
+import { Cart, CartSchema } from '../../models/cart/cart.schema';
+import { CartRepository } from '../../models/cart/cart.repository';
 
 import { ProductModule } from '../product/product.module';
 

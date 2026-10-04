@@ -9,8 +9,8 @@ import { Types } from 'mongoose';
 import { CartDto } from './dto/cart.dto';
 import { UpdateCartDto } from './dto/update-cart.dto';
 
-import { CartRepository } from 'src/models/cart/cart.repository';
-import { ProductRepository } from 'src/models/product/product.repository';
+import { CartRepository } from '../../models/cart/cart.repository';
+import { ProductRepository } from '../../models/product/product.repository';
 
 @Injectable()
 export class CartService {

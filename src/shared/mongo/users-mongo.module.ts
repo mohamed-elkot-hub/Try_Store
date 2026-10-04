@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { AdminRepository } from 'src/models/admin/admin.repository';
-import { Admin, AdminSchema } from 'src/models/admin/admin.schema';
-import {  CustomerRepository } from 'src/models/customer/customer.repository';
-import { Customer, CustomerSchema } from 'src/models/customer/customer.schema';
-import { userRepository } from 'src/models/users/user.repository';
-import { User, userSchema } from 'src/models/users/user.schema';
+import { AdminRepository } from '../../models/admin/admin.repository';
+import { Admin, AdminSchema } from '../../models/admin/admin.schema';
+import {  CustomerRepository } from '../../models/customer/customer.repository';
+import { Customer, CustomerSchema } from '../../models/customer/customer.schema';
+import { userRepository } from '../../models/users/user.repository';
+import { User, userSchema } from '../../models/users/user.schema';
 
 @Module({
   imports: [

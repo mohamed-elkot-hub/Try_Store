@@ -1,6 +1,6 @@
 import { Types } from 'mongoose';
-import { CloudinaryResponseDto } from 'src/common/cloud/dto/cloudinary.dto';
-import { DiscountEnum } from 'src/common/Enum/discount.enum';
+import { CloudinaryResponseDto } from '../../../common/cloud/dto/cloudinary.dto';
+import { DiscountEnum } from '../../../common/Enum/discount.enum';
 
 export class ProductEntity {
   name!: string;

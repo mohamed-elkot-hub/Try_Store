@@ -7,8 +7,8 @@ import {
   Max,
   Min,
 } from 'class-validator';
-import { Match } from 'src/common/decorators/validators/match.decorators';
-import { Role } from 'src/common/Enum/role.enum';
+import { Match } from '../../../common/decorators/validators/match.decorators';
+import { Role } from '../../../common/Enum/role.enum';
 
 export class RegisterAuthDto {
   @IsString()

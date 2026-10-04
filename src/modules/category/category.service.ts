@@ -3,7 +3,7 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { CategoryRepository } from 'src/models/category/category.repository';
+import { CategoryRepository } from '../../models/category/category.repository';
 import { CategoryDto } from './dto/category.dto';
 import { CategoryFactoryService } from './factory/category.factory';
 

@@ -4,7 +4,7 @@ import { Types } from 'mongoose';
 
 import { ProductDto } from '../dto/product.dto';
 import { ProductEntity } from '../entities/product.entity';
-import { CloudinaryResponseDto } from 'src/common/cloud/dto/cloudinary.dto';
+import { CloudinaryResponseDto } from '../../../common/cloud/dto/cloudinary.dto';
 
 @Injectable()
 export class ProductFactoryService {

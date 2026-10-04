@@ -1,5 +1,5 @@
 import { IsEnum, IsNotEmpty } from 'class-validator';
-import { OrderStatus } from 'src/common/Enum/status';
+import { OrderStatus } from '../../../common/Enum/status';
 
 export class UpdateOrderStatusDto {
   @IsEnum(OrderStatus)
